@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Institute of Technology Roorkee</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.cdnfonts.com/css/segoe-ui-4" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/segoe-ui-4" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <!-- This is the mobile part -->
+    <div class = "hide-pc">
+        <nav class = "up-nav-bar">
+            <div class = "nav-1">
+                <img src="/images/IITR Logo.svg" alt="IITR's logo" class = "logo">
+            <img src="/images/Vector (11).svg" alt="Hamburger" class = "icon-h">    
+            </div>
+            <div class = "nav-2">
+                <img src="./Images/g20-logo.png" alt="" class = "G-20">
+            </div>
+        </nav>
+    
+        <div class = "main-part" hidden = "hidden">
+            <div class = "left-menu">
+                <ul>
+                    <li class = "main-list-item">INSTITUTE</li>
+                    <li class = "main-list-item admissions">ADMISSIONS</li>
+                    <li class = "main-list-item">ADMINISTRATION</li>
+                    <li class = "main-list-item">ACADEMICS</li>
+                    <li class = "main-list-item">CAMPUS LIFE</li>
+                    <li class = "main-list-item">DEPARTMENTS</li>
+                    <li class = "main-list-item">RESEARCH</li>
+                    <li class = "main-list-item">CAREERS</li>
+                    <li class = "main-list-item">PLACEMENTS</li>
+                    <li class = "main-list-item">RESOURCES</li>
+                </ul>
+                <div class = "left-bottom">
+                    <hr class = "rule-1">
+                    <div class = "wrapper-3">
+                        <div class = "wrapper-a">
+                            <div class = "a-1">
+                                <center><p class = "a-1-text">A</p></center>
+                            </div>
+                            <div class = "a-2">
+                                <center><p class = "a-2-text">A</p></center>
+                            </div>
+                        </div>
+                        <img src="./Images/Group 35.svg" alt="" class = "a-A">
+                        <img src="./Images/Group 36.svg" alt="" class = "hindi-eng">
+                        <hr class = "rule-1">
+                        
+                    </div>
+                </div>
+                <ul>
+                    <li class = "list-item-bottom">CALENDAR</li>
+                    <li class = "list-item-bottom">CONTACT US</li>
+                    <li class = "list-item-bottom">DIRECTORY</li>
+                    <li class = "list-item-bottom">WEBMAIL</li>
+                </ul>
+                
+                
+            </div>
+
+           
+
+            
+            
+        </div>
+        <div class = "right-main" hidden = "hidden">
+            <ul>
+                <li class = "right-list-item">UG Admissions</li>
+                <li class = "right-list-item">PG Admissions</li>
+                <li class = "right-list-item last-item">PHD Admissions</li>
+            </ul>
+
+        </div>
+    </div>
+    
+
+    <!-- This is the laptop part -->
+    <nav class = "hide-mobile nav-bar">
+        <img src="./Images/IITR Logo.svg" alt="" class = "logo">
+        <div class = "right-top-final">
+            <div class = "right-final">
+                <div class = "wrapper-right-up">
+                    <img src="./Images/Group 35.svg" alt="" class = "a-A">
+                    <img src="./Images/Group 36.svg" alt="" class = "hindi-eng">
+                    <div class = "wrapper-a">
+                        <div class = "a-1">
+                            <p class = "a-1-text">A</p>
+                        </div>
+                        <div class = "a-2">
+                            <p class = "a-2-text">A</p>
+                        </div>
+                    </div>
+                </div>
+                <hr class = "rule-divider">
+                <ul class = "nav-list">
+                    <li class = "nav-list-item">WEBMAIL</li>
+                    <li class = "nav-list-item">CONTACT US</li>
+                    <li class = "nav-list-item">DIRECTORY</li>  
+                </ul>
+            </div>
+            <img src="./Images/g20-logo.png" alt="G-20" class = "G-20">
+            <img src="./Images/Vector (12).svg" alt="" class = "icon-s">
+        </div>
+    </nav>
+    <hr class = "hide-mobile divider">
+    <div class = "hide-mobile list-down">
+        <ul>
+            <li class = "list-down-item last">RESOURCES</li>
+            <li class = "list-down-item">PLACEMENTS</li>
+            <li class = "list-down-item">CAREERS</li>
+            <li class = "list-down-item">RESEARCH</li>
+            <li class = "list-down-item">DEPARTMENTS</li>
+            <li class = "list-down-item">CAMPUS LIFE</li>
+            <li class = "list-down-item">ACADEMICS</li>
+            <li class = "list-down-item administration">ADMINISTRATION</li>
+            <li class = "list-down-item admissions">ADMISSIONS</li>
+            <li class = "list-down-item first">INSTITUTE</li>
+        </ul>
+        
+    </div>
+
+    <div class = "hide-mobile adm-list">
+        <ul style="list-style-type: none;">
+            <li class = "adm-list-item">UG Admissions</li>
+            <li class = "adm-list-item">PG Admissions</li>
+            <li class = "adm-list-item last-item-list">PHD Admissions</li>
+        </ul>
+    </div>
+    
+
+    
+    
+    
+
+    <script>
+        if(window.innerWidth <= 1200){
+        let x = document.getElementsByClassName("icon-h")[0];
+        let y = document.getElementsByClassName("main-part")[0];
+        let adm_list = document.getElementsByClassName("right-main")[0];
+        let admissions = document.getElementsByClassName("admissions")[0];
+        let count = 0;
+        y.style.display = "none";
+        x.addEventListener('click' , () => {
+
+            count ++;
+            if(count % 2 != 0){
+                y.style.display = "flex";
+            }
+            if(count % 2 == 0){
+               y.style.display = "none";
+               adm_list.style.display = "none";
+               admissions.style.backgroundColor = "white"
+            }
+            
+           
+           
+            let count2 = 0;
+            admissions.addEventListener('click' , () => {
+            count2 ++;
+            if(count2 % 2 != 0){
+                admissions.style.backgroundColor =  "#F0F1F6";
+                adm_list.style.display = "flex";
+            }
+            else{
+                admissions.style.backgroundColor = "white"
+                adm_list.style.display = "none";
+            }
+
+            
+            
+        })
+
+
+            
+            
+        })
+
+        
+            
+        }
+
+        else{
+            let adm = document.getElementsByClassName("admissions")[1];
+            let adm_list = document.getElementsByClassName("adm-list")[0];
+            let flag = 0;
+            adm_list.style.display = "none";
+            adm.addEventListener('mouseenter' , () => {
+                
+                adm.style.backgroundColor = "#F0F1F6";
+                adm_list.style.display = "flex";
+
+                adm.addEventListener('mouseenter' , () => {
+                    flag = 1;
+                })
+               
+
+            })
+            adm.addEventListener('mouseleave' , () => {
+                if(flag == 1){
+                    adm_list.addEventListener('mouseleave' , () => {
+                    adm_list.style.display = "none";
+                    adm.style.backgroundColor = "white";
+                })
+                }
+                else{
+                    adm_list.style.display = "none";
+                    adm.style.backgroundColor = "white";
+                }
+               
+                
+                
+            })
+        }
+            
+            
+        
+        
+        
+    </script>
+</body>
+</html>
